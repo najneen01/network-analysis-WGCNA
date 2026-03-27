@@ -46,7 +46,3 @@ The heatmap below illustrates the correlation between identified modules and Abe
 * R version 4.x
 * Bioconductor packages: `WGCNA`, `DESeq2`, `limma`
 * Visualization: `ggplot2`, `pheatmap`
-
----
-**Author:** Najneen Rejwana  
-**Project:** Zilac Bioinformatics Portfolio
