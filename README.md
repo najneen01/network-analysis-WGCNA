@@ -18,12 +18,12 @@ The goal of this study was to move beyond simple Differential Gene Expression (D
 ### 1. Soft-Threshold Selection
 To ensure a scale-free network topology, a soft-thresholding power of **14** was selected, where the $R^2$ reached the 0.8 threshold.
 
-![Soft Threshold Plot](results/figures/Soft_threshold.jpg)
+![Soft Threshold Plot](results/Soft_threshold.jpg)
 
 ### 2. Module Identification
 Gene clustering resulted in several distinct modules. The dendrogram below shows the hierarchical clustering of genes and their assigned module colors.
 
-![Gene Dendrogram](results/figures/Gene_dendrogram_modules.jpg)
+![Gene Dendrogram](results/Gene_dendrogram_modules.jpg)
 
 ### 3. Module–Trait Relationship
 The heatmap below illustrates the correlation between identified modules and Abemaciclib treatment. 
@@ -31,7 +31,7 @@ The heatmap below illustrates the correlation between identified modules and Abe
 * **Top Module:** The **lightgreen** module showed the strongest significant negative correlation ($r = -0.54$, $p = 0.00059$).
 * **Biological Significance:** Since Abemaciclib is a cell-cycle inhibitor, this negative correlation suggests the module contains genes involved in proliferation and DNA replication that are suppressed upon treatment.
 
-![Module-Trait Heatmap](results/figures/Module_trait_heatmap.jpg)
+![Module-Trait Heatmap](results/Module_trait_heatmap.jpg)
 
 ---
 
